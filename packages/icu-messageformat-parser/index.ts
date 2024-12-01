@@ -56,5 +56,6 @@ export function parse(message: string, opts: ParserOptions = {}) {
 }
 export type {ParserOptions}
 export * from './types'
+export { printAST } from './printer'
 // only for testing
 export const _Parser = Parser
